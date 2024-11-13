@@ -7,5 +7,5 @@ for x in  range(1,jumlah_barang+1):
     total_belanja+=nilai
 
 print()
-print(f'Jumlah Belanjaan : (total_belanja, grouping=True, symbol="Rp.  ")')
+print(f'Jumlah Belanjaan : (total_belanja)')
 print()
