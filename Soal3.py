@@ -6,6 +6,5 @@ for x in  range(1,jumlah_barang+1):
     nilai = int(input(f'Masukan Harga Barang Ke-{x} : '))
     total_belanja+=nilai
 
-print()
-print(f'Jumlah Belanjaan : (total_belanja)')
-print()
+print('Jumlah Belanjaan :',(int(total_belanja)))
+
